@@ -1,0 +1,18 @@
+// datos generales
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(239, 38%, 23%);
+    font-family: "raleway", sans-serif;
+}
+
+.img-carro {
+    img {
+        aspect-ratio: 16/9;
+        height: 700px;
+    }
+}

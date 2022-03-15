@@ -1,0 +1,92 @@
+/* SECCION MATCHS */
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.contenedor-matchs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    .textos {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.match1 {
+    background-image: url(../img/matchs/ALEMANIA.jpg);
+}
+
+.match2 {
+    background-image: url(../img/carrousel/argentina.png);
+}
+
+.match3 {
+    background-image: url(../img/matchs/ESPAÑA.jpg);
+}
+
+.match4 {
+    background-image: url(../img/matchs/FRANCIA.jpg);
+}
+
+.match5 {
+    background-image: url(../img/matchs/ITALIA.jpg);
+}
+
+.match6 {
+    background-image: url(../img/matchs/INGLATERRA.png);
+}
+
+.banner {
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/matchs/Banner.jpg);
+    ul {
+        list-style: none;
+        li {
+            margin: 15px;
+            font-weight: bold;
+        }
+    }
+    .boton {
+        background: rgb(4, 170, 109);
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 100px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+}
+
+// Fin seccion
