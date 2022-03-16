@@ -523,6 +523,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-shadow: 0 0 2px white;
 }
 
 .match1 {
@@ -557,8 +558,9 @@ body {
   background-position: center center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   background-image: url(../img/matchs/Banner.jpg);
+  text-shadow: 0 0 2px white;
 }
 .banner ul {
   list-style: none;
