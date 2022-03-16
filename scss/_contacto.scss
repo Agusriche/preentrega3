@@ -40,7 +40,10 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     &:hover {
-        background-color: rgb(4, 170, 109);
+        background-color: #2EE59D;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
     }
 }
 
@@ -52,5 +55,7 @@ input[type=submit] {
 }
 
 .contact-text {
-    color: rgb(4, 170, 109);
+    color: rgb(0, 255, 162);
 }
+
+// fin seccion contacto
