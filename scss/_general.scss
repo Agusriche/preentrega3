@@ -7,7 +7,7 @@
 
 body {
     background-color: hsl(239, 38%, 23%);
-    font-family: "raleway", sans-serif;
+    font-family: Helvetica, Arial, Sans-Serif;
 }
 
 .img-carro {
@@ -15,4 +15,14 @@ body {
         aspect-ratio: 16/9;
         height: 700px;
     }
+}
+
+.tittlecarro {
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.textcarro {
+    text-shadow: 0 0 4px rgb(0, 0, 0);
+    font-size: 20px;
 }

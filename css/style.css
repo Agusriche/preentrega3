@@ -483,12 +483,22 @@ input[type=submit]:hover {
 
 body {
   background-color: #242551;
-  font-family: "raleway", sans-serif;
+  font-family: Helvetica, Arial, Sans-Serif;
 }
 
 .img-carro img {
   aspect-ratio: 16/9;
   height: 700px;
+}
+
+.tittlecarro {
+  text-shadow: 0 0 5px black;
+  font-size: 40px;
+}
+
+.textcarro {
+  text-shadow: 0 0 4px black;
+  font-size: 20px;
 }
 
 /* SECCION MATCHS */
