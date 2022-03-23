@@ -331,7 +331,7 @@ galeria > a {
   background-color: #555;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .column {
     width: 100%;
     display: block;
@@ -489,13 +489,6 @@ input[type=submit]:hover {
   justify-content: left;
 }
 
-@media screen and (max-width: 768px) {
-  .notice1 {
-    background-size: cover;
-    background-position: center;
-    background-position: top;
-  }
-}
 * {
   box-sizing: border-box;
   margin: 0px;
