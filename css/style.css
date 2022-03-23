@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .headercontainer {
   position: relative;
-  margin-top: 100px;
+  margin-top: 80px;
   display: block;
   width: 100%;
 }
@@ -114,6 +114,7 @@ nav .icon-burger .line {
     width: auto;
     justify-content: center;
   }
+
   nav .links {
     float: none;
     position: fixed;
@@ -131,22 +132,28 @@ nav .icon-burger .line {
     box-sizing: border-box;
     transition: all 0.5s ease-in-out;
   }
+
   nav .links a {
     font-size: 20px;
   }
-  nav:checked ~ .links {
+
+  nav :checked ~ .links {
     bottom: 0;
   }
+
   nav .icon-burger {
     display: block;
   }
-  nav:checked ~ .icon-burger .line:nth-child(1) {
+
+  nav :checked ~ .icon-burger .line:nth-child(1) {
     transform: translateY(10px) rotate(225deg);
   }
-  nav:checked ~ .icon-burger .line:nth-child(3) {
+
+  nav :checked ~ .icon-burger .line:nth-child(3) {
     transform: translateY(-10px) rotate(-225deg);
   }
-  nav:checked ~ .icon-burger .line:nth-child(2) {
+
+  nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
   }
 }
@@ -264,6 +271,13 @@ galeria > a {
   margin: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .social-icon {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+  }
+}
 .column {
   float: left;
   width: 33.3%;
@@ -475,6 +489,13 @@ input[type=submit]:hover {
   justify-content: left;
 }
 
+@media screen and (max-width: 768px) {
+  .notice1 {
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -593,6 +614,17 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .contenedor-matchs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .boton {
   padding: 1.3em 3em;
   font-size: 12px;

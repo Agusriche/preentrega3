@@ -95,3 +95,10 @@
 }
 
 // fin noticias
+@media screen and (max-width: 768px) {
+    .notice1 {
+        background-size: cover;
+        background-position: center;
+        background-position: top;
+    }
+}

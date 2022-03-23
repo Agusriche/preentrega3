@@ -92,3 +92,13 @@
 }
 
 // Fin seccion
+@media screen and (max-width: 768px) {
+    .contenedor-matchs {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+}
