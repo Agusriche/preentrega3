@@ -12,19 +12,10 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: Verdana;
   padding: 0 5%;
   height: 100px;
   background-color: #000000;
-}
-nav .logo {
-  float: left;
-  width: 40%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  font-size: 24px;
-  color: #fff;
 }
 nav .links {
   float: right;
@@ -252,6 +243,14 @@ galeria > a {
   text-align: center;
 }
 
+.momentstext {
+  text-align: center;
+  font-size: large;
+  font-family: Verdana;
+  color: #04AA6D;
+  text-shadow: 0 0 2px black;
+}
+
 .footer-container {
   color: black;
   background-color: #525252;
@@ -337,6 +336,11 @@ galeria > a {
     display: block;
   }
 }
+.img-nosotros {
+  max-width: 80%;
+  max-height: 80%;
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px;
