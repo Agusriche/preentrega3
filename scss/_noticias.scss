@@ -28,15 +28,14 @@
     display: flex;
     justify-content: center;
     color: rgb(4, 170, 109);
-    font-size: 6em;
-    font-style: italic;
+    font-size: 70px;
 }
 
 .notice-sub {
     display: flex;
     justify-content: center;
     color: rgb(4, 170, 109);
-    font-size: 1em;
+    font-size: 35px;
 }
 
 .notice1 {
@@ -84,7 +83,7 @@
 }
 
 .titular {
-    font-style: italic;
+    font-size: large;
     display: inline-block;
     color: rgb(0, 0, 0);
     text-decoration: none;
