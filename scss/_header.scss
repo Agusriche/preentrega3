@@ -86,7 +86,7 @@ nav {
     transition: .3s;
     z-index: 1;
     font-family: inherit;
-    color: #2EE59D;
+    color: #04AA6D;
     &::before {
         content: '';
         width: 0;
@@ -95,7 +95,7 @@ nav {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(45deg);
-        background: #2EE59D;
+        background: #04AA6D;
         transition: .5s ease;
         display: block;
         z-index: -1;
