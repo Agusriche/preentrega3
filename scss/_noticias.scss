@@ -99,4 +99,10 @@
                     display: flex;
                     flex-direction: column;
                 }
+                article {
+                    grid-column: 1/span 5;
+                }
+                .header-notice {
+                    grid-template-rows: repeat(5, 100px);
+                }
             }

@@ -278,6 +278,10 @@ galeria > a {
     width: 25px;
     margin: 20px;
   }
+
+  .NOTICIAS {
+    text-align: center;
+  }
 }
 .column {
   float: left;
@@ -508,6 +512,14 @@ input[type=submit]:hover {
   .news {
     display: flex;
     flex-direction: column;
+  }
+
+  article {
+    grid-column: 1/span 5;
+  }
+
+  .header-notice {
+    grid-template-rows: repeat(5, 100px);
   }
 }
 * {
