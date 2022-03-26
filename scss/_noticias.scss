@@ -1,97 +1,102 @@
-// inicio noticias
-.NOTICIAS {
-    padding: 15px;
-}
-
-.header-notice {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 18em 18em;
-    grid-gap: 1em;
-    width: 100%;
-    article {
-        &:first-child {
-            grid-row-start: 1;
-            grid-row-end: 3;
-        }
-    }
-}
-
-.news {
-    display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows: 18em;
-    grid-gap: 2em;
-}
-
-.notice-tittle {
-    display: flex;
-    justify-content: center;
-    color: rgb(4, 170, 109);
-    font-size: 70px;
-}
-
-.notice-sub {
-    display: flex;
-    justify-content: center;
-    color: rgb(4, 170, 109);
-    font-size: 35px;
-}
-
-.notice1 {
-    background-image: url(../img/news/harry_kane.jfif);
-    background-size: cover;
-}
-
-.notice2 {
-    background-image: url(../img/news/SAKA-SMITH.jfif);
-    background-size: cover;
-}
-
-.notice3 {
-    background-image: url(../img/news/Tabla.jfif);
-    background-size: cover;
-}
-
-.noticeI1 {
-    background-image: url(../img/news/MESSI.jpg);
-    background-size: cover;
-}
-
-.noticeI2 {
-    background-image: url(../img/news/RONALDO.jpg);
-    background-size: cover;
-}
-
-.noticeI3 {
-    background-image: url(../img/news/JEQUE-CITY.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.noticeI4 {
-    background-image: url(../img/news/NAKUCHY.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.noticeI5 {
-    background-image: url(../img/news/ZLATAN.jpg);
-    background-size: cover;
-    background-position: center;
-    background-position: top;
-}
-
-.titular {
-    font-size: large;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.6);
-    display: flex;
-    justify-content: left;
-}
-
-// fin noticias
-@media screen and (max-width: 768px) {}
+            // inicio noticias
+            .NOTICIAS {
+                padding: 15px;
+            }
+            
+            .header-notice {
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr;
+                grid-template-rows: 18em 18em;
+                grid-gap: 1em;
+                width: 100%;
+                article {
+                    &:first-child {
+                        grid-row-start: 1;
+                        grid-row-end: 3;
+                    }
+                }
+            }
+            
+            .news {
+                display: grid;
+                grid-template-columns: repeat( 3, 1fr);
+                grid-template-rows: 18em;
+                grid-gap: 2em;
+            }
+            
+            .notice-tittle {
+                display: flex;
+                justify-content: center;
+                color: rgb(4, 170, 109);
+                font-size: 70px;
+            }
+            
+            .notice-sub {
+                display: flex;
+                justify-content: center;
+                color: rgb(4, 170, 109);
+                font-size: 35px;
+            }
+            
+            .notice1 {
+                background-image: url(../img/news/harry_kane.jfif);
+                background-size: cover;
+            }
+            
+            .notice2 {
+                background-image: url(../img/news/SAKA-SMITH.jfif);
+                background-size: cover;
+            }
+            
+            .notice3 {
+                background-image: url(../img/news/Tabla.jfif);
+                background-size: cover;
+            }
+            
+            .noticeI1 {
+                background-image: url(../img/news/MESSI.jpg);
+                background-size: cover;
+            }
+            
+            .noticeI2 {
+                background-image: url(../img/news/RONALDO.jpg);
+                background-size: cover;
+            }
+            
+            .noticeI3 {
+                background-image: url(../img/news/JEQUE-CITY.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .noticeI4 {
+                background-image: url(../img/news/NAKUCHY.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .noticeI5 {
+                background-image: url(../img/news/ZLATAN.jpg);
+                background-size: cover;
+                background-position: center;
+                background-position: top;
+            }
+            
+            .titular {
+                font-size: large;
+                display: inline-block;
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                padding: 5px;
+                background-color: rgba(255, 255, 255, 0.6);
+                display: flex;
+                justify-content: left;
+            }
+            
+            // fin noticias
+            @media screen and (max-width: 700px) {
+                .news {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
